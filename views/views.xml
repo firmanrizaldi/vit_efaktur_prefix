@@ -1,0 +1,19 @@
+<odoo>
+  <data>
+
+      <record id="invoice_efaktur_prefix" model="ir.ui.view">
+            <field name="name">account_invoice_efaktur</field>
+            <field name="model">account.invoice</field>
+            <field name="inherit_id" ref="account.invoice_form"/>
+            <field name="arch" type="xml">
+
+                <xpath expr="//field[@name='prefix_berikat']" position="replace">
+                    <field name="prefix_berikat_id" widget="selection"/>
+                    <field name="efaktur_id" domain="[('is_used','=',False)]"/>
+                </xpath>
+
+            </field>
+        </record>
+
+  </data>
+</odoo>

@@ -1,0 +1,30 @@
+<odoo>
+    <data>
+
+        <record model="ir.actions.act_window" id="action_list_prefix">
+            <field name="name">Master Prefix</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">prefix.nsfp</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="domain">[]</field>  
+            <field name="context">{}</field>
+        </record>
+
+
+
+        <menuitem id="menu_vit_efaktur_prefix"
+                  parent="vit_efaktur.menu_vit_efaktur"
+                  sequence="100"
+                  name="Faktur Pajak Masukan"
+                  />
+
+        <menuitem id="menu_vit_efaktur_master_prefix"
+                  parent="menu_vit_efaktur_prefix"
+                  sequence="100"
+                  name="Master Prefix"
+                  action="action_list_prefix"/>
+
+
+    </data>
+</odoo>
