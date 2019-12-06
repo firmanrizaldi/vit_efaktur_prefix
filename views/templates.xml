@@ -16,10 +16,10 @@
         <menuitem id="menu_vit_efaktur_prefix"
                   parent="vit_efaktur.menu_vit_efaktur"
                   sequence="100"
-                  name="Faktur Pajak Masukan"
+                  name="Master Prefix"
                   />
 
-        <menuitem id="menu_vit_efaktur_master_prefix"
+        <menuitem id="master_prefix"
                   parent="menu_vit_efaktur_prefix"
                   sequence="100"
                   name="Master Prefix"
