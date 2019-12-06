@@ -15,12 +15,12 @@
 
         <menuitem id="menu_vit_efaktur_prefix"
                   parent="vit_efaktur.menu_vit_efaktur"
-                  sequence="100"
-                  name="Master Prefix" />
+                  sequence="90"
+                  name="Master Prefix"/>
 
         <menuitem id="master_prefix"
                   parent="menu_vit_efaktur_prefix"
-                  sequence="100"
+                  sequence="90"
                   name="Master Prefix"
                   action="action_list_prefix"/>
 
