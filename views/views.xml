@@ -9,7 +9,6 @@
 
                 <xpath expr="//field[@name='prefix_berikat']" position="replace">
                     <field name="prefix_berikat_id" widget="selection"/>
-                    <field name="efaktur_id" domain="[('is_used','=',False)]"/>
                 </xpath>
 
             </field>
